@@ -1957,3 +1957,20 @@ body.light-mode .brand-mark {
   background-color: #007bff;
   transform: scale(1.1);
 }
+/* Mobile Responsiveness - GSSoC Issue #3285 */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
